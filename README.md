@@ -86,3 +86,8 @@ For all the methods that follow, change the values of `TRAIN_PROCESSED_FILE`, `T
 * `dataset/negative-words.txt`: List of negative words.
 * `dataset/glove-seeds.txt`: GloVe words vectors from StanfordNLP which match our dataset for seeding word embeddings.
 * `Plots.ipynb`: IPython notebook used to generate plots present in report.
+
+
+## End Notes
+
+In this article, we learned how to approach a sentiment analysis problem. We started with preprocessing and exploration of data. Then we extracted features from the cleaned text using Bag-of-Words and TF-IDF. Finally, we were able to build a couple of models using both the feature sets to classify the tweets.
